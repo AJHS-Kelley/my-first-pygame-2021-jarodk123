@@ -26,3 +26,8 @@ text rect = text.get_rect()
 textrect.centerx = windowsurface.get_rect().centerx
 textrect.centery = windowsurface.get_rect().centery
 
+# draw background onto window surface. 
+windowsurface.fill(white)
+
+#draw a green polygon onto surface.
+pygame.draw.polygon(windowsurface, green,((146,0),(291,106),(236,277),(56,277),(0,106)))
